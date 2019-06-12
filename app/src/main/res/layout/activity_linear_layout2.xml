@@ -20,14 +20,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_uname"
+        android:id="@+id/lbl_uname"
         android:textSize="20dp"
         android:text="UserName"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_upass"
+        android:id="@+id/lbl_upass"
         android:text="Password"
         android:textSize="20dp"/>
 
@@ -53,6 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DemoPass"
+            android:inputType="textPassword"
             android:textSize="20dp"
             android:id="@+id/txt_upass"/>
 
